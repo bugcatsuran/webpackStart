@@ -1,0 +1,17 @@
+{
+  "name": "webpackStart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server  --config webpack.develop.config.js --hot --inline --devtool eval --progress --colors --hot --content-base src",
+    "publish": "webpack --config webpack.publish.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.9.4"
+  }
+}
